@@ -1213,3 +1213,10 @@ html {
     margin: 0 auto;
     text-align: justify;
 }
+.map-embed {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
