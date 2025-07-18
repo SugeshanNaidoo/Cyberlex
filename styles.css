@@ -412,6 +412,9 @@ main {
 .certifications-card:hover .card-icon i {
     color: var(--primary-blue);
 }
+.certifications-card {
+    transition: all 0.3s ease;
+}
 
 
 /* Forms */
