@@ -392,6 +392,27 @@ main {
     margin-bottom: 20px;
     line-height: 1.6;
 }
+/* Hover effect ONLY for the Professional Certifications card */
+.certifications-card:hover {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    border-color: var(--primary-blue);
+}
+
+.certifications-card:hover h3,
+.certifications-card:hover li,
+.certifications-card:hover li i {
+    color: var(--white);
+}
+
+.certifications-card:hover .card-icon {
+    background-color: var(--white);
+}
+
+.certifications-card:hover .card-icon i {
+    color: var(--primary-blue);
+}
+
 
 /* Forms */
 .form-group {
