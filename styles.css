@@ -394,9 +394,24 @@ main {
 }
 
 .certifications-card {
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
+.certifications-card h3,
+.certifications-card li,
+.certifications-card li i {
+    transition: color 0.3s ease;
+}
+
+.certifications-card .card-icon {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.certifications-card .card-icon i {
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect */
 .certifications-card:hover {
     background-color: var(--primary-blue);
     color: var(--white);
@@ -411,11 +426,20 @@ main {
 
 .certifications-card:hover .card-icon {
     background-color: var(--white);
+    transform: scale(1.05);
 }
 
 .certifications-card:hover .card-icon i {
     color: var(--primary-blue);
 }
+.certifications-card {
+    box-shadow: var(--shadow);
+}
+
+.certifications-card:hover {
+    box-shadow: var(--shadow-lg);
+}
+
 
 /* Forms */
 .form-group {
