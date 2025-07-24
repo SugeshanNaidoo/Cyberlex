@@ -1,7 +1,6 @@
 {
-  "name": "your-vercel-project",
+  "name": "cyberlex-serverless",
   "version": "1.0.0",
-  "main": "index.js",
   "type": "module",
   "dependencies": {
     "nodemailer": "^6.10.1"
