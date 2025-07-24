@@ -1,8 +1,41 @@
 {
   "name": "cyberlex-serverless",
   "version": "1.0.0",
+  "description": "Cyberlex site with contact and booking forms using Vercel serverless functions",
   "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node script.js"
+  },
   "dependencies": {
-    "nodemailer": "^6.10.1"
+    "nodemailer": "^6.9.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "vercel",
+    "nodemailer",
+    "serverless",
+    "contact-form",
+    "booking-form",
+    "cyberlex"
+  ],
+  "author": "Cyberlex",
+  "license": "MIT",
+  "private": true,
+  "vercel": {
+    "functions": {
+      "api/contact.js": {
+        "runtime": "nodejs18.x"
+      },
+      "api/booking.js": {
+        "runtime": "nodejs18.x"
+      }
+    }
+  },
+  "devDependencies": {
+    "vercel": "^27.0.0"
   }
 }
