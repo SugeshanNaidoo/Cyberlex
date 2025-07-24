@@ -1,0 +1,9 @@
+{
+  "name": "your-vercel-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "nodemailer": "^6.9.8"
+  }
+}
