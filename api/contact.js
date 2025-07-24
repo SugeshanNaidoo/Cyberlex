@@ -109,9 +109,9 @@ export default async function handler(req, res) {
                     <p>In the meantime, feel free to explore our services or contact us directly:</p>
                     
                     <div style="background: white; padding: 15px; border: 1px solid #e5e7eb; border-radius: 6px; margin: 20px 0;">
-                        <p style="margin: 5px 0;"><strong>📧 Email:</strong> info@cyberlex.co.za</p>
-                        <p style="margin: 5px 0;"><strong>📞 Phone:</strong> +27 11 234 5678</p>
-                        <p style="margin: 5px 0;"><strong>🏢 Address:</strong> 123 Legal District, Sandton, Johannesburg</p>
+                        <p style="margin: 5px 0;"><strong>Email:</strong> avathar@cyberlex.co.za</p>
+                        <p style="margin: 5px 0;"><strong>Phone:</strong> +27 82 315 4737</p>
+                        <p style="margin: 5px 0;"><strong>Address:</strong> Johannesburg, South Africa</p>
                     </div>
                     
                     <p>Best regards,<br>
