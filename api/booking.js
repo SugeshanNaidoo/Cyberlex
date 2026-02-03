@@ -1,5 +1,9 @@
 import nodemailer from "nodemailer";
 
+console.log("SMTP USER EXISTS:", !!process.env.SMTP_USER);
+console.log("SMTP PASS LENGTH:", process.env.SMTP_PASS?.length);
+
+
 export default async function handler(req, res) {
   // CORS
   res.setHeader("Access-Control-Allow-Credentials", true);
